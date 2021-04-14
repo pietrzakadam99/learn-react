@@ -15,7 +15,6 @@ class Card extends React.Component {
       </section>
     )
   }
-  
 }
 
 export default Card;
