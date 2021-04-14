@@ -1,26 +1,16 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 import styles from './Button.scss';
 
-const Button = ({variant = '', onClick, ...otherProps}) => {
-  const onClickButton = () => {
-    const warning = variant.split(' ').find(singleVariant => singleVariant === 'warning');
-
-    if (warning) {
-      if (window.confirm('Do you want to cancel?')){
-        onClick();
-      }
-    } else {
-      onClick();
-    }
-  }
-  
-  return (
+const Button = ({variant = '', ...otherProps}) => (
   <button 
     {...otherProps} 
-    onClick={onClickButton}
     className={styles.component + variant.split(' ').map(name => ' ' + (styles[name] || name)).join('')}
   />
-  );
+);
+
+Button.propTypes = {
+  variant: PropTypes.node,
 };
 
 export default Button;
