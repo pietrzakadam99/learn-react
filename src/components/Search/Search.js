@@ -3,7 +3,7 @@ import styles from './Search.scss';
 import Button from '../Button/Button';
 import PropTypes from 'prop-types';
 import { settings } from '../../data/dataStore';
-import Icon from '../Icon/Icon';
+import Icon from '../Icon/Icon.js';
 
 class Search extends React.Component {
   static propTypes = {
