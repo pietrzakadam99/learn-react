@@ -5,7 +5,7 @@ import Card from '../Card/Card.js';
 import Creator from './../Creator/Creator.js';
 import { settings } from '../../data/dataStore';
 import Icon from './../Icon/Icon.js';
-import {Droppable} from 'react-beautiful-dnd';
+import { Droppable } from 'react-beautiful-dnd';
 
 
 class Column extends React.Component {

@@ -32,12 +32,10 @@ export const listData = {
         {
           key: 0,
           title: 'This Is Going to Hurt',
-          index: 0,
         },
         {
           key: 1,
           title: 'Interpreter of Maladies',
-          index: 1,
         },
       ],
     },
@@ -49,12 +47,10 @@ export const listData = {
         {
           key: 0,
           title: 'Harry Potter',
-          index: 0,
         },
         {
           key: 1,
           title: 'Star Wars',
-          index: 1,
         },
       ],
     },
@@ -66,12 +62,10 @@ export const listData = {
         {
           key: 0,
           title: 'The Witcher',
-          index: 0,
         },
         {
           key: 1,
           title: 'Skyrim',
-          index: 1,
         },
       ],
     },
@@ -119,31 +113,37 @@ const cards = [
     id: 'card-1',
     columnId: 'column-1',
     title: 'This Is Going to Hurt',
+    index: 0,
   },
   {
     id: 'card-2',
     columnId: 'column-1',
     title: 'Interpreter of Maladies',
+    index: 1,
   },
   {
     id: 'card-3',
     columnId: 'column-2',
     title: 'Harry Potter',
+    index: 0,
   },
   {
     id: 'card-4',
     columnId: 'column-2',
     title: 'Star Wars',
+    index: 1,
   },
   {
     id: 'card-5',
     columnId: 'column-3',
     title: 'The Witcher',
+    index: 0,
   },
   {
     id: 'card-6',
     columnId: 'column-3',
     title: 'Skyrim',
+    index: 1,
   },
 ];
 
