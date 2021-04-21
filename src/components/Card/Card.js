@@ -13,7 +13,7 @@ class Card extends React.Component {
       render(){
         const {title, id, index} = this.props;
         return(
-          <section className={styles.component}>
+          <section>
             <Draggable draggableId={id} index={index}>
               {(provided) => (
                 <article
