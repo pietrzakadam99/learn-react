@@ -7,7 +7,7 @@ import Icon from '../Icon/Icon';
 class Header extends React.Component {
   render() {
     return (
-      <header className={styles.Component}>
+      <header className={styles.component}>
         <Container>
           <div className={styles.wrapper}>
             <Link to='/' className={styles.logo}>
