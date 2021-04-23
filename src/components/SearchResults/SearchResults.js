@@ -2,7 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import styles from './SearchResults.scss';
 import Icon from './../Icon/Icon.js';
-import Card from '../Card/Card.js';
+import CardForSearch from '../CardForSearch/CardForSearch.js';
 import Container from '../Container/Container';
 import { settings } from '../../data/dataStore';
 
@@ -25,7 +25,7 @@ class SearchResults extends React.Component {
             <h3 className={styles.title}><span className={styles.icon}><Icon name={icon}/></span>{title}</h3>
             <div className={styles.cards}>
               {cards.map(cardData => (
-                <Card key={cardData.id} {...cardData} />
+                <CardForSearch key={cardData.id} {...cardData} />
               ))}
             </div>
           </Container>
