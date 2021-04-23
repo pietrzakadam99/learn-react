@@ -23,7 +23,7 @@ class SearchResults extends React.Component {
         <section className={styles.component}>
           <Container>
             <h3 className={styles.title}><span className={styles.icon}><Icon name={icon}/></span>{title}</h3>
-            <div className={styles,cards}>
+            <div className={styles.cards}>
               {cards.map(cardData => (
                 <Card key={cardData.id} {...cardData} />
               ))}
